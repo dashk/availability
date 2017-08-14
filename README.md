@@ -4,7 +4,7 @@ Availability
 How to run
 ===========
 1. Download the JAR from dist/availability.jar
-2. Run java -jar <path to jar> <path to CSV file> "<time to search>"
+2. Run java -jar \<path to jar\> \<path to CSV file\> "\<time to search\>"
 
 Where is the code entry point?
 ===========
