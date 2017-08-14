@@ -4,7 +4,8 @@ Availability
 How to run
 ===========
 1. Download the JAR from dist/availability.jar
-2. Run java -jar \<path to jar\> \<path to CSV file\> "\<time to search\>"
+2. If needed, you can find a sample of the data file in dist/sample_data.csv for availability data.
+3. Run java -jar \<path to jar\> \<path to CSV file\> "\<time to search\>"
 
 Where is the code entry point?
 ===========
@@ -13,6 +14,7 @@ Where is the code entry point?
 What assumptions have been made?
 ===========
 1. CSV is expected to be well formatted. (RFC4180)
+   (See dist/sample_data.csv for a sample)
 
 2. Time is expected to be well formatted.
    Format: "<Time Range> [, <Time Range>]" (At least one time range must be specified)
