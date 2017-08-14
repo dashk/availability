@@ -1,11 +1,13 @@
-To Run:
+* Availability
+
+** Execute:
 1. Download the JAR from dist/availability.jar
 2. Run java -jar <path to jar> <path to CSV file> "<time to search>"
 
-Code Entry Point:
+** Code Entry Point
 - AvailabilityRunner.findAvailableSalesRep(...) (See AvailabilityRunner.java)
 
-Assumptions
+** Assumptions
 1. CSV is expected to be well formatted. (RFC4180)
 
 2. Time is expected to be well formatted.
@@ -35,5 +37,5 @@ Assumptions
 8. To mark a Sales Rep as available all day, you will need to specify the time as 12:00 am to 12:00 am.
    e.g. Mon-Wed 12:00 am - 12:00 am <-- This indicates the Sales Rep is available all day from Monday through Wednesday
 
-To Package:
+** To Package
 mvn package
