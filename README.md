@@ -43,6 +43,6 @@ What assumptions have been made?
 8. To mark a Sales Rep as available all day, you will need to specify the time as 12:00 am to 12:00 am.
    e.g. Mon-Wed 12:00 am - 12:00 am <-- This indicates the Sales Rep is available all day from Monday through Wednesday
 
-How to repackage the JAR?
+How to generate the JAR?
 ===========
 `mvn package`
